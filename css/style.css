@@ -18,7 +18,7 @@
     font-size: 18px;
     color: #ffc2d5;
     border: none;
-    -webkit-border-radius: 0px;
+    -webkit-border-radius: 0;
     text-transform: uppercase;
     text-shadow: none;
 }
@@ -26,9 +26,7 @@
 .navbar-light .navbar-nav .nav-link {
     color: #ffc2d5;
 }
-.navbar-light .navbar-nav .active>.nav-link {
-    color: #fff;
-}
+
 
 .logo_wrapper {
 	position: relative;
@@ -51,3 +49,25 @@
     margin-bottom: 5px;
 }
 
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+	    color: #fff;
+	    font-size: 20px;
+}
+
+@media (min-width: 980px) {
+	.navbar-light .navbar-nav .active>.nav-link {
+	    color: #fff;
+	    text-decoration: none;
+	    background: url(../img/nav.png) center center no-repeat;
+	    box-shadow: none;
+	    moz-box-shadow: none;
+	    padding-bottom: 25px;
+	    padding-top: 25px;
+	}
+}
