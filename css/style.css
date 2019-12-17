@@ -4,7 +4,10 @@
 	background: url(../img/px1.jpg);
 }
 
-.top1_wrapper2{background: url(../img/px2.png) left bottom repeat-x; padding-bottom: 24px;}
+.top1_wrapper2{
+	background: url(../img/px2.png) left bottom repeat-x; 
+	padding-bottom: 24px;
+}
 
 .navbar-nav > li > a {
 	display: block;
@@ -27,12 +30,11 @@
     color: #fff;
 }
 
-logo_wrapper {
+.logo_wrapper {
 	position: relative;
     left: 50%;
     margin-left: -84px;
-    bottom: -55px;
-    z-index: 31;
+    bottom: -35px;
 }
 
 .navbar-toggler{
