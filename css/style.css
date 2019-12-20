@@ -3,7 +3,18 @@ a:hover{
     text-decoration: none;
 }
 
+@media (max-width: 767px) {
+    body.lock {
+        overflow: hidden;
+    }
+}
+
+
 /* -------- header -----------*/
+
+.header {
+    padding-bottom: 250px;
+}
 
 .top1_wrapper {
 	background: url(../img/px1.jpg);
