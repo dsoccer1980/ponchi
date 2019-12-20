@@ -8,8 +8,11 @@ a:hover{
 .top1_wrapper {
 	background: url(../img/px1.jpg);
     overflow-x: hidden;
-  /*  position: fixed;
-    width: 100%;*/
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
 
 .top1_wrapper2{
