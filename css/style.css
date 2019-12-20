@@ -1,7 +1,13 @@
 
+a:hover{
+    text-decoration: none;
+}
+
+/* -------- header -----------*/
 
 .top1_wrapper {
 	background: url(../img/px1.jpg);
+    overflow-x: hidden;
 }
 
 .top1_wrapper2{
@@ -77,3 +83,63 @@ li {
 	    border-bottom: 1px solid #ffc2d5;
 	}
 }
+
+/*----------- Content -------------*/
+
+.menu_type .post-thumbnail img {
+    border-radius: 50%;
+}
+
+.menu_type .entry-title a {
+    font-family: 'Bad Script', cursive;
+    font-weight: 400;
+    color: #e35d86;
+    font-size: 44px;
+}
+.link-view-menu {
+    font-weight: bold;
+    font-size: 15px;
+    color: #0d0c0a;
+}
+
+.post .entry-content p {
+    font-size: 14px;
+    color: #211c1c;
+    line-height: 23px;
+}
+
+
+.greeting-info{
+    text-align: center;
+    font-family: IskraCYR-Regular,sans-serif;
+    font-size: 24px;
+    color: #636363 !important;
+}
+.greeting-info2 {
+    text-align: center;
+    font-family: IskraCYR-Regular,sans-serif;
+    font-size: 16px;
+    color: #636363 !important;
+}
+
+
+
+/*----------footer--------*/
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fcece6;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.phone-number-bottom {
+    font-size: 16px;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #6c6c6c;
+}
+
