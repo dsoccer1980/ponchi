@@ -1,3 +1,14 @@
+body, html {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
 
 a:hover{
     text-decoration: none;
@@ -107,6 +118,10 @@ li {
 }
 
 /*----------- Content -------------*/
+
+section {
+    flex: 1 1 auto;
+}
 
 .menu_type .post-thumbnail img {
     border-radius: 50%;
