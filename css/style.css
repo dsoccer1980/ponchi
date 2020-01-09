@@ -175,11 +175,9 @@ section {
 .comments q {
     font-family: "Conv_FrizQuadrataC-Italic";
     width: 283px;
-    margin: 15px 25px;
     color: #b97fdc;
     font-size: 17pt;
     line-height: 21pt;
-    border-bottom: solid 1px #9625cc;
     padding-bottom: 23px;
 }
 
@@ -197,7 +195,33 @@ section {
     }
 }
 
-.comments .comment_head {
+.comment_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.c__title {
+    font-family: "Conv_FrizQuadrataC-Italic";
+    width: 283px;
+    margin: 0px 0px 0px 15px;
+    color: #b97fdc;
+    font-size: 17pt;
+    line-height: 21pt;
+    border-bottom: solid 1px #9625cc;
+    padding-bottom: 23px;
+    text-align: left;
+}
+
+.comments .comment_body blockquote {
+    text-align: justify;
+    font-size: 13.5pt;
+    line-height: 17pt;
+}
+
+/*.comments .comment_head {
     overflow: hidden;
 }
 
@@ -218,7 +242,7 @@ section {
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
-}
+}*/
 
 .order-info {
     text-align: center;
