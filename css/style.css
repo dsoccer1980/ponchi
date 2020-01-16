@@ -88,7 +88,7 @@ a:hover{
     margin-bottom: 5px;
 }
 
-li {
+.nav-item {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -245,7 +245,7 @@ section {
 }*/
 
 .order-info {
-    text-align: center;
+    text-align: left;
 }
 
 .order-info p {
@@ -256,7 +256,7 @@ section {
     margin-inline-end: 0px;
     line-height: 20px;
     font-family: IskraCYR-Regular,sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     color: #4a4747 !important;
 }
 
