@@ -221,29 +221,6 @@ section {
     line-height: 17pt;
 }
 
-/*.comments .comment_head {
-    overflow: hidden;
-}
-
-.comments .comment_body blockquote {
-    text-align: justify;
-    font-size: 13.5pt;
-    line-height: 17pt;
-}
-
-.comments .comment_head > * {
-    float: left;
-}
-
-.comments .comment_head img {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-}*/
-
 .order-info {
     text-align: left;
 }
@@ -259,6 +236,28 @@ section {
     font-size: 16px;
     color: #4a4747 !important;
 }
+
+.tort-weight-text p {
+    padding: 0 0 1em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+iframe {
+    width: 500px;
+    height: 450px;
+} 
+
+@media (max-width: 767px) {
+    iframe {
+     width: 100%;
+     height: 350px;
+    }
+}
+
 
 
 /*----------footer--------*/
