@@ -66,6 +66,11 @@ a:hover{
     color: #ffc2d5;
 }
 
+.navbar-light .navbar-nav .nav-link-unable {
+    color: #b4aeb8;
+    cursor: default;
+}
+
 
 .logo_wrapper {
 	position: relative;
