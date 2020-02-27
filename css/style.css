@@ -136,8 +136,17 @@ section {
     font-family: 'Bad Script', cursive;
     font-weight: 400;
     color: #e35d86;
-    font-size: 44px;
+    font-size: 24px;
+    width:50px;
 }
+.menu_type h2 {
+    line-height: 0.7;
+    height:50px;
+}
+.menu_type {
+    margin-bottom: 10px;
+}
+
 .link-view-menu {
     font-weight: bold;
     font-size: 15px;
