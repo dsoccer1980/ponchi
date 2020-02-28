@@ -137,14 +137,25 @@ section {
     font-weight: 400;
     color: #e35d86;
     font-size: 24px;
-    width:50px;
+
 }
+
+header.entry-header {
+        margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 .menu_type h2 {
     line-height: 0.7;
     height:50px;
+    text-align: center;
 }
 .menu_type {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+.post-thumbnail {
+    text-align: center;
 }
 
 .link-view-menu {
