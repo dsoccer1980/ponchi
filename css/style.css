@@ -300,10 +300,12 @@ header.entry-header {
 
 }
 
+
 .card-description p {
     margin-left: 5px;
     margin-right: 5px; 
-    text-align: justify;
+    text-align: left;
+    font-size: 15px;  
 }
 
 iframe {
