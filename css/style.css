@@ -135,7 +135,7 @@ section {
     height: 155px;
 }
 
-.menu_type .entry-title a {
+.menu_type h2 {
     font-family: 'Bad Script', cursive;
     font-weight: 400;
     color: #e35d86;
@@ -272,6 +272,38 @@ header.entry-header {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.main-top .row h3 {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    color: #e35d86;
+    font-size: 24px;
+}
+
+.card-body {
+    padding: 0.25rem;
+}
+.card-body p {
+    font-family: IskraCYR-Regular,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+}
+
+.card-description p {
+    margin-left: 5px;
+    margin-right: 5px; 
+    text-align: justify;
 }
 
 iframe {
