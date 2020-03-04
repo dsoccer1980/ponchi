@@ -281,16 +281,16 @@ header.entry-header {
     font-size: 24px;
 }
 
-.card-body {
+/*.card-body {
     padding: 0.25rem;
-}
-.card-body p {
+}*/
+/*.card-body p {
     font-family: IskraCYR-Regular,sans-serif;
     font-size: 16px;
     font-weight: bold;
     display: block;
     text-align: center;
-}
+}*/
 
 .card-img-top {
   display: block;
@@ -306,6 +306,10 @@ header.entry-header {
     margin-right: 5px; 
     text-align: left;
     font-size: 15px;  
+}
+
+.tort-price p {
+    line-height: 0.9
 }
 
 iframe {
