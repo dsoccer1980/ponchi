@@ -341,8 +341,60 @@ iframe {
 }
 
 .phone-number-bottom {
-    font-size: 16px;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-        color: #6c6c6c;
+    font-size: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #6c6c6c;
 }
 
+.footer__logo-bootom {
+    padding-left: 100px;
+    padding-right: 10px;
+    border-right: 1px solid silver;
+}
+
+.footer__tel-bootom {
+    display: flex;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid silver;
+}
+
+.footer__tel-bootom a {
+    margin: auto;
+}
+
+.footer__email-bootom {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid silver;
+}
+
+.footer__email-bootom a {
+    margin: auto;
+}
+
+.footer__soc-seti-bootom {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid silver;
+}
+
+.footer__soc-seti-bootom a {
+    margin: auto;
+}
+
+.footer__soc-seti-bootom a:first-child {
+    padding-right: 2px;
+}
+
+.footer__dropdown {
+    display: flex;
+    padding-left: 10px;
+}
+
+.footer__dropdown .dropdown {
+    margin: auto;
+}
