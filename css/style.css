@@ -398,3 +398,126 @@ iframe {
 .footer__dropdown .dropdown {
     margin: auto;
 }
+@media (max-width: 767px) {
+
+    .footer__logo-bootom {
+        margin: auto;
+        padding : 0 0;
+        border-right: 0;
+    }
+
+    .footer__tel-bootom {
+        margin: auto;
+        padding : 0 0;
+        border-right: 0;
+    }
+
+    .footer__email-bootom {
+        margin: 10px 10px 10px 40px;
+        padding : 0 0;
+        border-right: 0;
+    }
+
+    .footer__soc-seti-bootom {
+        padding : 0 0;
+        border-right: 0;
+    }
+
+    .footer__soc-seti-bootom a:first-child {
+        padding-left: 2px;
+        padding-right: 7px;
+    }
+
+    .footer__dropdown {
+        margin: auto;
+        padding : 10px 0 0 0;
+        border-right: 0;
+    }
+
+}
+
+.main-page-novinki li.col-lg-4 {
+    width: 33%;
+}
+
+.product-list {
+    clear: both;
+    margin-left: -15px;
+    margin-right: -15px;
+    list-style: none outside;
+}
+.p0 {
+    padding: 0;
+}
+
+.product {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    list-style: none outside;
+    z-index: 5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.inner-product-content {
+    border: 1px solid #e1e1e1;
+    box-shadow: inset 0 0 0 1px white;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 2px;
+    background-clip: padding-box;
+    width: 100%;
+    position: relative;
+}
+.product-catalog-image {
+    position: relative;
+    padding: 1px 1px 0 1px;
+    width: 100%;
+    z-index: 4;
+}
+.product-catalog-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 1px;
+    background-clip: padding-box;
+}
+.alpha-level {
+    background: rgba(255,255,255,.7);
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+}
+.product-catalog-description {
+    margin: 0;
+    padding: 15px 5px 10px 7px;
+    z-index: 5;
+    position: relative;
+    min-height: 95px;
+}
+
+.product-catalog-description h3{
+    padding: 0 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700!important;
+    margin-top: 5px;
+    min-height: 55px;
+    text-align: left;
+    color: #000;
+}
+.price ins {
+    text-decoration: none;
+    color: #e42049!important;
+}
+.price {
+    font-size: 24px;
+    display: block;
+    font-weight: 500;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+
+}
