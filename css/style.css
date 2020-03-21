@@ -284,19 +284,17 @@ header.entry-header {
 /*.card-body {
     padding: 0.25rem;
 }*/
-/*.card-body p {
+.card-body p {
     font-family: IskraCYR-Regular,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     display: block;
-    text-align: center;
-}*/
+}
 
 .card-img-top {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+  width: 100%;
+  padding: 1px 1px 0 1px;
 
 }
 
@@ -440,6 +438,17 @@ iframe {
     width: 33%;
 }
 
+@media (max-width: 767px) {
+  .main-page-novinki .col-sm-4.product {
+    width: 50%;
+  }
+  .col-sm-4 {
+    max-width: 100%
+  }
+
+}
+
+
 .product-list {
     clear: both;
     margin-left: -15px;
@@ -483,19 +492,19 @@ iframe {
     border-radius: 1px;
     background-clip: padding-box;
 }
-.alpha-level {
-    background: rgba(255,255,255,.7);
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    bottom: 0;
-}
+
 .product-catalog-description {
     margin: 0;
     padding: 15px 5px 10px 7px;
     z-index: 5;
     position: relative;
     min-height: 95px;
+}
+
+.product-catalog-description a{
+  display: block;
+  margin-right: 80px;
+  text-decoration: none;
 }
 
 .product-catalog-description h3{
@@ -508,10 +517,10 @@ iframe {
     text-align: left;
     color: #000;
 }
-.price ins {
+/*.price ins {
     text-decoration: none;
     color: #e42049!important;
-}
+}*/
 .price {
     font-size: 24px;
     display: block;
@@ -520,4 +529,25 @@ iframe {
     top: 10px;
     right: 7px;
 
+}
+
+.main-card {
+    border: 1px solid #e1e1e1;
+}
+
+.card-footer {
+    height: 100px;
+    padding: 0;
+}
+
+.card-body__price {
+    text-decoration: none;
+    color: #e42049!important;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Open Sans;
+}
+
+.card-deck .col-lg-4 {
+    max-width: 30%;
 }
