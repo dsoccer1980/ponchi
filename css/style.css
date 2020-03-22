@@ -550,6 +550,55 @@ iframe {
     padding-left: 5px;
 }
 
-.card-deck .col-lg-4 {
-    max-width: 30%;
+.card-deck .card {
+    max-width: 25rem;
+    min-width: 18rem;
+}
+@media (max-width: 767px) {
+    .card-deck .card {
+     max-width: 15rem;
+     min-width: 15rem;
+    }
+    .tort-price p {
+        line-height: 0.9;
+    }
+    .card-body p {
+        font-size: 16px;
+    }
+    .card-body__price {
+        font-size: 20px;
+    }
+    .card-description p {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .card-deck .card {
+     max-width: 16rem;
+     min-width: 16rem;
+    }
+    .tort-price p {
+        line-height: 0.9;
+    }
+    .card-body p {
+        font-size: 16px;
+    }
+    .card-body__price {
+        font-size: 20px;
+    }
+    .card-description p {
+        font-size: 12px;
+    }
+    .card-footer {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1140px) {
+   .card-description p {
+        font-size: 13px;
+    }
 }
