@@ -281,14 +281,15 @@ header.entry-header {
     font-size: 24px;
 }
 
-/*.card-body {
-    padding: 0.25rem;
-}*/
+.card-body {
+    padding: 0.25rem 0.55rem 0.25rem 0.75rem;
+}
 .card-body p {
     font-family: IskraCYR-Regular,sans-serif;
     font-size: 20px;
     font-weight: bold;
     display: block;
+    max-width: 60%;
 }
 
 .card-img-top {
@@ -307,7 +308,7 @@ header.entry-header {
 }
 
 .tort-price p {
-    line-height: 0.9
+    line-height: 0.4
 }
 
 iframe {
@@ -536,7 +537,7 @@ iframe {
 }
 
 .card-footer {
-    height: 100px;
+    height: 110px;
     padding: 0;
 }
 
@@ -546,6 +547,7 @@ iframe {
     font-size: 24px;
     font-weight: 600;
     font-family: Open Sans;
+    padding-left: 5px;
 }
 
 .card-deck .col-lg-4 {
