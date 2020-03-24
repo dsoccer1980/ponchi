@@ -195,7 +195,6 @@ header.entry-header {
 .comments {
     padding-top: 49px;
     width: 480px;
-    height: 400px;
     float: left;
     margin-right: 20px;
 }
@@ -207,28 +206,6 @@ header.entry-header {
     font-size: 17pt;
     line-height: 21pt;
     padding-bottom: 23px;
-}
-
-@media (max-width: 767px) {
-    .comments {
-    padding-top: 49px;
-    width: 100%;
-    height: 100%;
-    float: left;
-    margin-right: 20px;
-    }
-
-    .comments q {
-       width: 100%;
-    }
-}
-
-.comment_head {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
 }
 
 .c__title {
@@ -243,10 +220,55 @@ header.entry-header {
     text-align: left;
 }
 
+.comments_more {
+    font-family: "Conv_FrizQuadrataC-Italic";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .comments {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+    }
+
+    .comments q {
+       width: 100%;
+       font-size: 19px;
+    }
+    .comment_head {
+        flex-wrap: wrap;
+    }
+    .c__title {
+        width:auto;
+    }
+    .comment_head__img {
+        margin-top : 10px;
+    }
+}
+
+.comment_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+
 .comments .comment_body blockquote {
     text-align: justify;
     font-size: 13.5pt;
     line-height: 17pt;
+}
+
+.comment_head__img {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .order-info {
