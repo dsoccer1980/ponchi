@@ -5,13 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/side.css" type="text/css">
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootsidemenu.js"></script>
+
     <title>Ponchi. Торты на заказ</title>
   </head>
-
   <body>
 
+<div id="left-slide-menu" style="left: -300px;" class="container sidebar sidebar-left" data-status="opened">
+	<div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg1-12" data-side="left">
 
- <header class="header">
+            <h2 class="side-listgroup-title">Ассортимент</h2>
+            <div class="list-group">
+                      <a class="list-group-item" href="gallery_biskvit.html">      <img src="img/main_image/biskvit-tort.jpg"  alt="Бисквитные торты" />
+      <span class="list-group-textname">Бисквитные торты</span>
+</a>
+      <a class="list-group-item" href="gallery_muss.html">      <img src="img/main_image/mus-tort.jpg"  alt="Муссовые торты" />
+      <span class="list-group-textname">Муссовые торты и пирожные</span>
+</a>
+      <a class="list-group-item" href="gallery_capcake.html">      <img src="img/main_image/capcake.jpg"  alt="Капкейки" />
+      <span class="list-group-textname">Капкейки</span>
+	  </a>
+     <a class="list-group-item" href="gallery_zefir.html">      <img src="img/main_image/zefir.jpg"  alt="Зефир, меренга, пастила" />
+      <span class="list-group-textname">Зефир, меренга, пастила</span>
+	  </a> 
+	 <a class="list-group-item" href="gallery_popsy.html">      <img src="img/main_image/cake-popsy.jpg"  alt="Кейк-попсы" />
+      <span class="list-group-textname">Кейк-попсы</span>
+	  </a> 
+	  <a class="list-group-item" href="gallery_konfety.html">      <img src="img/main_image/konfety.jpg"  alt="Конфеты" />
+      <span class="list-group-textname">Конфеты</span>
+	  </a> 
+	  <a class="list-group-item" href="gallery_konfety.html">     <img src="img/main_image/mini-tort.jpg"  alt="Мини торт" />
+      <span class="list-group-textname">Трайфлы</span>
+	  </a> 
+</div>
+</div>
+	</div>
+
+</div>
+
+
+<script type="text/javascript">
+     $('#left-slide-menu').BootSideMenu({ side: "left" });
+</script>
+
+
+  	<div class="wrapper">
+
+	  	<header class="header">
 	  		<div class="top1_wrapper">
 	  			<div class="logo_wrapper"><a href="index.html" class="logo"><img src="img/logo.png"  alt=""></a></div>
 	  			<div class="top1_wrapper2">
@@ -33,10 +77,11 @@
 									        <a class="nav-link" href="index.html">Главная 
 									        	</a>
 									      </li>
-									      <li class="nav-item  active">
-									        <a class="nav-link" href="#">Каталог
-									        	<span class="sr-only">(current)</span>
-									        </a>
+									      <li class="nav-item active">
+									        <a class="nav-link catalog-menu-btn" href="#">Каталог<span class="sr-only">(current)</span></a>
+									      </li>
+									      <li class="nav-item">
+									        <a class="nav-link" href="condition.html">Условия</a>
 									      </li>
 									    </ul>
 
@@ -45,10 +90,10 @@
 									        <a class="nav-link" href="#">Спецпредложения</a>
 									      </li>
 									      <li class="nav-item">
-									        <a class="nav-link" href="#">Отзывы</a>
+									        <a class="nav-link" href="comments.html">Отзывы</a>
 									      </li>
 									      <li class="nav-item">
-									        <a class="nav-link" href="#">Контакты</a>
+									        <a class="nav-link" href="contact.html">Контакты</a>
 									      </li>
 									    </ul>
 									  </div>
