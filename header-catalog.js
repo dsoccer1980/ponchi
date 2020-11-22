@@ -18,26 +18,28 @@
 
 									  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 									    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-									      <li class="nav-item">
+									      <li class="nav-item" id="main-nav-item">
 									        <a class="nav-link" href="index.html">Главная 
 									        	</a>
 									      </li>
-									      <li class="nav-item active">
-									        <a class="nav-link catalog-menu-btn" href="#">Каталог<span class="sr-only">(current)</span></a>
+									      <li class="nav-item" id="catalog-nav-item">
+									        <a class="nav-link catalog-menu-btn" href="#">Каталог
+									        
+									        </a>
 									      </li>
-									      <li class="nav-item">
+									      <li class="nav-item" id="condition-nav-item">
 									        <a class="nav-link" href="condition.html">Условия</a>
 									      </li>
 									    </ul>
 
 									     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-									      <li class="nav-item">
+									      <li class="nav-item" id="spec-nav-item">
 									        <a class="nav-link" href="#">Спецпредложения</a>
 									      </li>
-									      <li class="nav-item">
+									      <li class="nav-item" id="comments-nav-item">
 									        <a class="nav-link" href="comments.html">Отзывы</a>
 									      </li>
-									      <li class="nav-item">
+									      <li class="nav-item" id="contact-nav-item">
 									        <a class="nav-link" href="contact.html">Контакты</a>
 									      </li>
 									    </ul>
