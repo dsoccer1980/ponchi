@@ -24,12 +24,12 @@ a:hover{
 /* -------- header -----------*/
 
 .header {
-    padding-bottom: 275px;
+    padding-bottom: 235px;
 }
 
 @media (max-width: 767px) {
     .header {
-     padding-bottom: 250px;
+     padding-bottom: 150px;
     }
 }
 
@@ -75,8 +75,19 @@ a:hover{
 .logo_wrapper {
 	position: relative;
     left: 50%;
-    margin-left: -84px;
+    margin-left: -294px;
     bottom: -35px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .logo_wrapper {
+        margin-left: -194px;
+    }
+    .logo > img {
+        width: 50%;
+        height:50%;
+    }
 }
 
 .navbar-toggler{
