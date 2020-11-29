@@ -139,6 +139,13 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
     cursor: pointer
 }
 
+@media (max-width: 767px) {
+    .toggler {
+    top: 10%;
+    }
+    
+}
+
 .sidebar-left>.toggler {
     -webkit-border-top-right-radius: 4px;
     -webkit-border-bottom-right-radius: 4px;
